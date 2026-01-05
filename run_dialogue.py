@@ -46,7 +46,7 @@ from transformers import (
     set_seed,
 )
 
-from rewards_semantic import calc_semantic_reward
+from rewards_semantic_eval import calc_semantic_reward
 
 
 logger = logging.getLogger(__name__)
